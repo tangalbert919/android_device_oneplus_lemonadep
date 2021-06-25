@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus9Oxygen_22.E.09_OTA_0090_all_2105252341_e677846a0
+# All unpinned blobs below are extracted from OnePlus9Oxygen_22.E.10_OTA_0100_all_2106092130_7e89f
 
 # ACDB
 odm/etc/acdbdata/acdb_version
@@ -381,7 +381,7 @@ vendor/etc/sensors/config/lahaina_stk2232_0.json
 vendor/etc/sensors/config/lahaina_sx9324_0.json
 vendor/etc/sensors/config/lahaina_sx9324up_0.json
 vendor/etc/sensors/config/lahaina_sx932x_0.json
-vendor/etc/sensors/config/lahaina_tcs3408.json
+vendor/etc/sensors/config/lahaina_tcs3408_0.json
 vendor/etc/sensors/config/lahaina_tcs3707.json
 vendor/etc/sensors/config/lps22hb_0.json
 vendor/etc/sensors/config/mmc56x3x_0.json
