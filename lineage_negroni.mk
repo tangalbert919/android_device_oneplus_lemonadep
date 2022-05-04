@@ -18,25 +18,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from lemonadep device
-$(call inherit-product, device/oneplus/lemonadep/device.mk)
+# Inherit from negroni device
+$(call inherit-product, device/oneplus/negroni/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lemonadep
-PRODUCT_DEVICE := lemonadep
+PRODUCT_NAME := lineage_negroni
+PRODUCT_DEVICE := negroni
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := LE2123
+PRODUCT_MODEL := NE2213
 
-PRODUCT_SYSTEM_NAME := OnePlus9Pro_EEA
-PRODUCT_SYSTEM_DEVICE := OnePlus9Pro
+PRODUCT_SYSTEM_NAME := OnePlus10Pro_EEA
+PRODUCT_SYSTEM_DEVICE := OnePlus10Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=OnePlus9Pro \
-    TARGET_PRODUCT=OnePlus9Pro_EEA
+    TARGET_DEVICE=OnePlus10Pro \
+    TARGET_PRODUCT=OnePlus10Pro_EEA
 
-BUILD_FINGERPRINT := OnePlus/OnePlus9Pro_EEA/OnePlus9Pro:12/SKQ1.210216.001/R.202203102003:user/release-keys
+BUILD_FINGERPRINT := OnePlus/NE2213EEA/OP516FL1:12/SKQ1.211019.001/S.202203262150:user/release-keys

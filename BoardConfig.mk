@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-# Inherit from oneplus sm8350-common
--include device/oneplus/sm8350-common/BoardConfigCommon.mk
+# Inherit from oneplus sm8450-common
+-include device/oneplus/sm8450-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/lemonadep
+DEVICE_PATH := device/oneplus/negroni
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -26,4 +26,4 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 TARGET_RECOVERY_DENSITY := xxhdpi
 
 # inherit from the proprietary version
--include vendor/oneplus/lemonadep/BoardConfigVendor.mk
+-include vendor/oneplus/negroni/BoardConfigVendor.mk
